@@ -1844,7 +1844,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6f4232;
+  background: #9ff0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2400,7 +2400,7 @@ pre .javascript .function {
   top: 0;
   left: 0;
   z-index: 2080;
-  background-color: rgba(255,255,240,0.7);
+  background-color: rgba(0,0,0,0.3);
 }
 .algolia-popup {
   overflow: hidden;
@@ -2495,7 +2495,8 @@ pre .javascript .function {
   margin: 0;
   padding: 0 2px;
   font-size: inherit;
-  color: rgba(240,128,128,0.9);
+  color: #fff;
+  background-color: rgba(0,0,0,0.3);
 }
 .algolia-hits {
   margin-top: 20px;
