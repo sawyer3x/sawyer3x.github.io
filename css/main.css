@@ -1844,7 +1844,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9ff0ff;
+  background: #deffdf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2495,8 +2495,8 @@ pre .javascript .function {
   margin: 0;
   padding: 0 2px;
   font-size: inherit;
-  color: #fff;
-  background-color: rgba(0,0,0,0.3);
+  color: rgba(255,99,71,0.9);
+  background-color: rgba(0,0,0,0.1);
 }
 .algolia-hits {
   margin-top: 20px;
