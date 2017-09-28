@@ -11,6 +11,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 
@@ -360,10 +371,10 @@
     
       <div class="tag-cloud">
         <div class="tag-cloud-title">
-            目前共计 1 个标签
+            目前共计 2 个标签
         </div>
         <div class="tag-cloud-tags">
-          <a href="/tags/瞎扯/" style="font-size: 12px; color: #ccc">瞎扯</a>
+          <a href="/tags/python/" style="font-size: 12px; color: #ccc">python</a> <a href="/tags/瞎扯/" style="font-size: 12px; color: #ccc">瞎扯</a>
         </div>
       </div>
     
@@ -410,7 +421,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -420,10 +431,10 @@
             
             
             <div class="site-state-item site-state-categories">
-              
+              <a href="/categories/index.html">
                 <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
-              
+              </a>
             </div>
           
 
@@ -432,7 +443,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
